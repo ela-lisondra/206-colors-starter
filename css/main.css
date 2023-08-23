@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*---------- HEADER ----------*/
+
+header {
+  height: 300px;
+  width: 100%;
+  background: #e3e3e3;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+
+.col-3 {
+  width: 100%;
+  height: 320px;
+  float: left;
+}
+
+#column-1 {
+  background: rgb(241, 193, 201);
+}
+
+#column-2 {
+  background: rgb(243, 140, 158);
+}
+
+#column-3 {
+  background: rgb(247, 66, 96);
+}
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #e3e3e3;
+}
+
+
+/*---------- TABLET ----------*/
+/* Change the background colors below */
+
+@media (min-width: 768px) {
+  header {
+    background-color:rgb(247, 247, 214);
+  }
+
+  #column-1 {
+    background-color: rgb(247, 247, 183);
+  }
+
+  #column-2 {
+    background-color: rgb(250, 250, 133);
+  }
+
+  #column-3 {
+    background-color: rgb(252, 252, 89);
+    width: 100%;
+  }
+
+  footer {
+    background-color: rgb(252, 252, 47);
+  }
+  
+  .col-3 {
+  width: 50%;
+  }
+}
+
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+  header {
+    background-color: rgb(248, 214, 248);
+  }
+
+  #column-1 {
+    background-color: rgb(252, 187, 252);
+  }
+
+  #column-2 {
+    background-color: rgb(254, 130, 254);
+  }
+
+  #column-3 {
+    background-color: rgb(250, 74, 250);
+    width: 33.3%;
+  }
+
+  footer {
+    background-color: rgb(247, 28, 247);
+  }
+  
+  .col-3 {
+    width: 33.3%;
+  }
+}
